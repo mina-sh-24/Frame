@@ -124,7 +124,6 @@ body {
 }
 
 .sec-top {
-    background-color: pink;
     width: 50%;
     margin: 0 auto;
     padding: 30px;
@@ -138,6 +137,7 @@ body {
     font-size: 35px;
     font-weight: bold;
     padding: 30px 0;
+    
 }
 
 .sec-top-line {
@@ -184,3 +184,145 @@ body {
     color: #0f386e;
 }
 /* end features */
+
+/* start plans */
+
+.plans {
+    margin: 50px 0;
+}
+
+.plans-box {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.plan-items {
+    display: flex;
+    justify-content: space-around;
+}
+ .plan-item {
+    border: 1px solid rgba(128, 128, 128, 0.634);
+    width: 27%;
+    padding: 10px;
+    color: gray;
+}
+
+
+ .plan-item-title {
+    letter-spacing: 2px;
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    color: black;
+ }
+
+.plan-item-price {
+    font-size: 50px;
+    color: #1a57a5;
+    text-align: center;
+    display: block;
+    margin: 25px 0;
+}
+
+.plan-item-text {
+    margin: 30px 0;
+    font-size: 17px;
+
+}
+
+.plan-item-info {
+    margin: 17px 0;
+    width: 80%;
+}
+
+.plan-item-info i {
+    color: #103463;
+}
+
+.plan-item-link {
+    display: flex;
+    justify-content: center;
+
+}
+
+.plan-item a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 30px 0;
+    display: inline-block;
+}
+
+.plan-item a:hover {
+    background-color: rgb(47, 47, 47);
+}
+
+.plan-item-new {
+    box-shadow: 2px 2px 40px 4px rgba(179, 179, 179, 0.489);
+}
+
+.plan-item-new  a {
+    background-color: #2e6da4;
+}
+
+.plan-item-new  a:hover {
+    background-color: #1f496f;
+}
+/* end plans */
+
+/* start comment */
+.comment {
+    background-color: #D6E6F2;
+}
+
+.comment-box {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.comment-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.comment-item {
+    background-color: white;
+    border-radius: 8PX;
+    width: 26%;
+    padding: 30px;
+    margin: 15px 0;
+}
+
+.comment-item img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.comment-item-stars {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.full-star {
+    color: #F79F24;
+}
+
+.empty-star {
+    color: rgba(128, 128, 128, 0.593);
+}
+
+.comment-item blockquote {
+    font-size: 18px;
+    margin: 20px 0;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+.comment-item span{
+    color: gray;
+}
+/* end comment */
